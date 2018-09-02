@@ -108,6 +108,11 @@ return [
 
     'cipher' => 'AES-256-CBC',
 
+    'developers' =>[
+        'boykasoma@gmial.com',
+        'boy01kasoma@gmial.com',
+    ],
+
     /*
     |--------------------------------------------------------------------------
     | Autoloaded Service Providers

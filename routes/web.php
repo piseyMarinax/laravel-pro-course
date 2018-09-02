@@ -14,3 +14,11 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::get('/custom', function () {
+//     dd(config('blog.administators'));
+//    dd(env('APP_CREATOR'));
+    dd(config('blog.creator'));
+
+});
